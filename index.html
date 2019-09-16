@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Binários</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Analisador de IP</h1>
+    </header>
+    <section>
+      <article>
+        <form>
+          <h2>Digite um endereço IP/V4:</h2>
+          <br />
+          <input type="number" id="o1" required />.
+          <input type="number" id="o2" required />.
+          <input type="number" id="o3" required />.
+          <input type="number" id="o4" required />
+          <br />
+          <input
+            class="botao"
+            type="button"
+            value="Analisar"
+            onclick="acessar_inputs()"
+          />
+          <br />
+
+          <h3>Informações:</h3>
+          <div class="mostrar">
+            <p id="printBin"></p>
+            <p id="printClasse"></p>
+            <p id="printMascara"></p>
+            <p id="printEndRede"></p>
+            <p id="printEndHost"></p>
+            <p id="printBroadcast"></p>
+            <p id="printValido"></p>
+          </div>
+        </form>
+      </article>
+    </section>
+    <footer>
+      Developed by: Gustavo Cruz Pinheiro & Ryan Larrea dos Santos <br />
+      Contatos: gustavo.pinheiro@novaandradina.org &
+      ryan.santos@novaandradina.org <br />
+      ©2019 Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso
+      do Sul.
+    </footer>
+  </body>
+</html>
